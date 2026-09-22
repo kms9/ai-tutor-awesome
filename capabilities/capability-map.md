@@ -15,7 +15,7 @@
 | 主动规划 | 未问先准备 | 弱 | Partners 可主动 | 极强（Orbie） | 中（续课，非抢日程） |
 | 长期记忆 | 跨会话可审计 | 会话级 | 三层 Memory | 学习风格 / Memory 档 | 空间即记忆 |
 | 视觉知识结构 | 卡片/白板/主张图 | 课堂白板 | 可视化模式 | 讲解视频 | 极强 |
-| 可复用 Skill | Agent playbook | openmaic + agent-runtime + 约 20 课内 Skill | deeptutor-cli + EduHub ~74 | 产品内流程，无公开仓 | App Skills + heptabase-cli |
+| 可复用 Skill | Agent playbook | openmaic + agent-runtime 已点名 24 课内 Skill + importer | deeptutor-cli + EduHub 74 | 产品内流程，无公开仓 | App Skills + heptabase-cli |
 | 自托管 / 换模型 | | 是 | 是 | 否 | 否（部分 BYOK / 开源模型入口） |
 | 导出 | | PPTX/HTML | MD/笔记本 | cheatsheet/视频 | 空间内为主；白板可导出图 |
 
@@ -35,3 +35,5 @@
 | 导出 | 会话/复习内容 | 字幕/文本 | SCORM 弱于 Coursebox | 复习集 | Anki（Pro） | Word/PPT/Anki（付费） | PDF/HTML/SCORM | MP4 | 音频下载 | — |
 
 新增产品时只加列，不改行名，除非开 Issue 讨论维度本身。
+
+Skill 名称与「锁死流程」对照见 [skill-map.md](skill-map.md)。产品页内也有同一组十维的单列版。
