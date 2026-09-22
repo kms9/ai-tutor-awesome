@@ -13,7 +13,7 @@
 | Heptabase | App 内 AI Skills + `heptabase-cli` | App 不限（无私有市场目录）；CLI 1 条 | 备 / 整理库 / 开课对象 | 是（Claude Code / Codex） |
 | Claude 官方 | `academy-guide` + `k12-teacher-skills` | 1 + 4 | 备 / 评（教师侧） | 是 |
 | 社区教学仓 | 见 [skills/education-community.md](../skills/education-community.md) | 7 个仓 | 教 / 练 / 做课 | 视仓而定 |
-| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / OpenTutor / Course Navigator | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
+| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / Brilliant / OpenTutor / Course Navigator | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
 
 ClassroomIO 有 MCP，不是教学 Skill。
 
@@ -87,7 +87,7 @@ ClassroomIO 有 MCP，不是教学 Skill。
 | k12-lesson-prep | Heptabase「先读源」；OpenMAIC Pro 材料面板 | NotebookLM（只有问答） |
 | k12-check-for-understanding | DeepTutor 出题；OpenTutor 形成性题型；Khanmigo 追问 | X-Pilot（纯视频） |
 | academy-guide | 无对应产品 Skill | — |
-| Learning Mode（产品模式，非文件） | EduHub Socratic Tutor；Khanmigo | 成课平台的数字人讲解 |
+| Learning Mode（产品模式，非文件） | EduHub Socratic Tutor；Khanmigo；Brilliant Koji | 成课平台的数字人讲解 |
 
 ## 不会写 Skill 的产品，能力仍要对照
 
@@ -103,6 +103,7 @@ ClassroomIO 有 MCP，不是教学 Skill。
 | X-Pilot | 大纲/分镜→MP4 | 没有练习闭环 |
 | NotebookLM | Studio 指南/音频/幻灯 | 没有课程对象 |
 | Khanmigo | 苏格拉底 + Khan 内容库 | 不能吃任意 PDF 当主库 |
+| Brilliant | 交互关卡 + 画布感知 Koji | 不能吃用户材料；Koji 不能外装 |
 | OpenTutor | Block 工作区 + FSRS | 未见 SKILL.md |
 | Course Navigator | 视频→字幕/笔记 | 上游工具，无教 |
 
