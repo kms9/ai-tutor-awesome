@@ -64,6 +64,7 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | X-Pilot | PDF/PPT 生成可核验的讲解视频课。 | 要讲义变视频、强调少幻觉、可导出 MP4。 | [product/x-pilot](product/x-pilot/README.md) |
 | NotebookLM | 源材料问答、学习指南、音频对话。 | 只要基于我的 PDF 问得准，先不需要教学运行时。 | [product/notebooklm](product/notebooklm/README.md) |
 | Khanmigo | Khan Academy 苏格拉底家教。 | 对照「成熟教辅家教」的教学姿态，不作为自托管方案。 | [product/khanmigo](product/khanmigo/README.md) |
+| Brilliant | 专家写好的 STEM 交互画布 + 课内导师 Koji。拖切线、改天平、跟踪代码，不吃用户 PDF。 | 把抽象概念练成手感；每天短课；对照「看见画布、不代做」的导师。不适合自有课件成课。 | [product/brilliant](product/brilliant/README.md) |
 
 ## 按场景选
 
@@ -79,6 +80,8 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | 讲义变成讲解视频 | X-Pilot、Hyperknow 的视频能力 |
 | 可安装的教法 Skill | DeepTutor EduHub、OpenMAIC 课内 Skill、Claude k12-teacher-skills |
 | 源材料变成主张图 | Heptabase App Skills |
+| 把抽象概念练成可操作手感 | Brilliant |
+| 对照「不代做」的课内导师 | Khanmigo / Brilliant Koji |
 
 更细的维度对照见 [capabilities/capability-map.md](capabilities/capability-map.md)。Skill 对照见 [capabilities/skill-map.md](capabilities/skill-map.md)。
 
