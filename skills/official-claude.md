@@ -1,5 +1,7 @@
 # Claude / Anthropic 官方教育相关 Skill
 
+巡查：2026-09-22。官方分层未变。
+
 Skill 是带 `SKILL.md` 的文件夹（Agent Skills 开放标准：https://agentskills.io/specification）。  
 官方教育向分三层：**通用官方仓**、**K-12 教师专用仓**、**产品内能力（不一定是 Skill 文件）**。
 
