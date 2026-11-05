@@ -12,8 +12,8 @@
 | DeepTutor | 仓根 `deeptutor-cli` + EduHub 注册表 | 1 条 CLI + EduHub 74 | 教 / 练 / 评 / 规划 | 是（DeepTutor / Claude Code / Codex） |
 | Heptabase | App 内 AI Skills + `heptabase-cli` | App 不限（无私有市场目录）；CLI 1 条 | 备 / 整理库 / 开课对象 | 是（Claude Code / Codex） |
 | Claude 官方 | `academy-guide` + `k12-teacher-skills` | 1 + 4 | 备 / 评（教师侧） | 是 |
-| 社区教学仓 | 见 [skills/education-community.md](../skills/education-community.md) | 7 个仓 | 教 / 练 / 做课 | 视仓而定 |
-| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / Brilliant / OpenTutor / Course Navigator | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
+| 社区教学仓 | 见 [skills/education-community.md](../skills/education-community.md) | 8 个仓 | 教 / 练 / 做课 | 视仓而定 |
+| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / Brilliant / WeduLab / OpenTutor / Course Navigator / Live Classroom | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
 
 ClassroomIO 有 MCP，不是教学 Skill。
 
@@ -106,6 +106,8 @@ ClassroomIO 有 MCP，不是教学 Skill。
 | Brilliant | 交互关卡 + 画布感知 Koji | 不能吃用户材料；Koji 不能外装 |
 | OpenTutor | Block 工作区 + FSRS | 未见 SKILL.md |
 | Course Navigator | 视频→字幕/笔记 | 上游工具，无教 |
+| Live Classroom | 主题→12 节拍→即时渲染视频 + 节目单 | 无练习闭环；无 SKILL.md |
+| WeduLab | 固定 3D 实验 + 随堂检测 | 无 AI 运行时；按需生成要靠 AetherViz 类 Skill |
 
 ## 自研时怎么用这张表
 

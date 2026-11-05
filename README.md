@@ -47,6 +47,7 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | OpenTutor | 本地优先自适应学习工作区。上传资料后生成笔记、闪卡、测验和导师，支持 FSRS。 | 数据不能出本机；只要复习闭环，不要完整课堂 UI。 | [product/opentutor](product/opentutor/README.md) |
 | Course Navigator | 网课视频转可检索文本、大纲和摘要。 | 先消化已有视频课，再交给家教或课堂系统。 | [product/course-navigator](product/course-navigator/README.md) |
 | ClassroomIO | 开源 LMS，带 AI 大纲和课程交付。 | 机构要托管和分发，不需要 AI 同学实时演课。 | [product/classroomio](product/classroomio/README.md) |
+| Live Classroom | 打一个主题，LLM 规划 12 节拍，H3 Max Turbo 即时渲染成 1 分钟卡通讲解视频，可排队追问。 | 研究生成式视频课堂的工程做法；随口一个概念先看动画讲解。不适合讲义变视频、要练习或记忆。 | [product/live-classroom](product/live-classroom/README.md) |
 
 ### 商业学生端
 
@@ -65,6 +66,7 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | NotebookLM | 源材料问答、学习指南、音频对话。 | 只要基于我的 PDF 问得准，先不需要教学运行时。 | [product/notebooklm](product/notebooklm/README.md) |
 | Khanmigo | Khan Academy 苏格拉底家教。 | 对照「成熟教辅家教」的教学姿态，不作为自托管方案。 | [product/khanmigo](product/khanmigo/README.md) |
 | Brilliant | 专家写好的 STEM 交互画布 + 课内导师 Koji。拖切线、改天平、跟踪代码，不吃用户 PDF。 | 把抽象概念练成手感；每天短课；对照「看见画布、不代做」的导师。不适合自有课件成课。 | [product/brilliant](product/brilliant/README.md) |
+| WeduLab | 作者用 Claude 做的初高中 3D 交互实验合集，免费、免注册，部分带随堂检测。 | 课堂投屏讲三维 / 动态知识点；对照「AI 做课的成品」长什么样。不适合自有课件成课或要 AI 家教。 | [product/wedulab](product/wedulab/README.md) |
 
 ## 按场景选
 
@@ -78,6 +80,8 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | 上传课件就刷卡和测验 | StudyFetch / YouLearn / Scholarly |
 | 给组织做培训课 | Coursebox / ClassroomIO |
 | 讲义变成讲解视频 | X-Pilot、Hyperknow 的视频能力 |
+| 一句话主题即时生成讲解视频 | Live Classroom |
+| 课堂投屏用的 3D 交互教具 | WeduLab（成品）/ AetherViz Master Skill（自己生成） |
 | 可安装的教法 Skill | DeepTutor EduHub、OpenMAIC 课内 Skill、Claude k12-teacher-skills |
 | 源材料变成主张图 | Heptabase App Skills |
 | 把抽象概念练成可操作手感 | Brilliant |
