@@ -21,7 +21,7 @@
 不适合：
 
 - 要把自己的讲义 / PDF 变成课（去 OpenMAIC / DeepTutor / Hyperknow）。
-- 要按需生成新主题的教具（用 [AetherViz Master](../../skills/education-community.md) 之类 Skill 自己生成）。
+- 要按需生成新主题的教具（用 [AetherViz Master](../../skills/education-community.md)、作者的 edulab 之类 Skill 自己生成，或用 [懂了鸭](../dongleya/README.md) 在线生成）。
 - 要 AI 家教、追问、掌握度记录。
 - 要题库、作业批改或考试刷题。
 
@@ -34,6 +34,8 @@
 | 3D / 动画演示 + 可调参数 | 教 | 视觉知识结构 |
 | 随堂检测、闯关评星（部分实验） | 练 | 解题/出题（弱） |
 | 学科 / 学段 / 知识点标注 | 备 | — |
+
+作者另开源了教育 Skill 集 [wy51ai/edulab](https://github.com/wy51ai/edulab)（Apache-2.0，作者署名 WY · @akokoi1）：把一道题做成交互教学网页（立体几何、解析几何、化学反应微观演示）或带配音的讲解视频（数学、物理、化学）。edulab README 没有说明它与 wedulab.com 上这些实验的关系（未核）。条目见 [skills/education-community.md](../../skills/education-community.md)。
 
 总表见 [capabilities/skill-map.md](../../capabilities/skill-map.md)。
 
@@ -48,7 +50,7 @@
 | 主动规划 | — |
 | 长期记忆 | — |
 | 视觉知识结构 | 极强（课内 3D 实验）；不是用户知识库主张图 |
-| 可复用 Skill | 无 |
+| 可复用 Skill | 产品内无；作者另有 edulab Skill 集（见上） |
 | 自托管 / 换模型 | 否 |
 | 导出 | 未核 |
 

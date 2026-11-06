@@ -14,6 +14,7 @@
 | Heptabase | heptabase-cli | https://github.com/heptameta/heptabase-cli-skills | 笔记、白板、思维导图、目标、课程与课时 |
 | Heptabase App | 用户自定义 AI Skills | 产品内，无统一公开仓 | 主张图、顺页摘要等阅读工作流 |
 | ClassroomIO | MCP `@classroomio/mcp` | npm / 仓库 README | 不是教学 playbook，是系统集成 |
+| 懂了鸭 | `dly-html` / `dongleya-content-asset-skill` / `dly-content-source` | https://dongleya.qq.com/d_file/skills/dly-ca-skill-2.2.1.zip | 做课：外部 Agent 本地做自包含 HTML 互动作品并多端检查，用户说「上传」后用个人 Agent Token 投稿为临时副本，由用户在网页发布；可取回本人线上作品源码。v2.2.1，官网 zip 下载，非 Git 仓库。见 [product/dongleya](../product/dongleya/README.md) |
 
 ### EduHub 已点名（未穷尽）
 
@@ -38,6 +39,8 @@
 | kevintsai1202/teaching-site-skills | 11 个 Skill：从零做章节化互动教学站 | https://github.com/kevintsai1202/teaching-site-skills |
 | HughYau/AcademicForge `learn` | 学术理解模式：一步一问，发现 vs 直讲 | https://github.com/HughYau/AcademicForge |
 | andyhuo520/aetherviz-master | 做课：输入教学主题 → 单个 HTML 的 3D 交互教学页（Three.js + SVG + KaTeX），自动识别学科配色，带学习目标、原理讲解、小测验面板；Claude Code 里 `/aetherviz-master` 触发。MIT | https://github.com/andyhuo520/aetherviz-master |
+| wy51ai/edulab | 做课：6 个 Skill。`edu-solid-geometry` / `edu-analytic-geometry` / `edu-chem-reaction` 把一道题（文字、图片或随机出题）解成自包含交互教学网页，sympy 精确计算；`edu-math-video` / `edu-physics-video` / `edu-chem-video` 把一道题做成带中文配音和字幕的 1920×1080 讲解视频，先给浏览器预览、再按需导出 MP4，配音需自备 TTS key。`npx skills add wy51ai/edulab` 安装。Apache-2.0。作者即 [WeduLab](../product/wedulab/README.md) 作者（@akokoi1） | https://github.com/wy51ai/edulab |
+| wheresryan22/anatomy | 做课（相邻）：一句话描述一个技术概念或一台机器，生成可交互的等轴测结构图（SVG，可加 WebGL 着色器与 3D 模式），带标题、提示和由模型驱动的实时读数，并用无头 Chrome 自检；`/anatomy` 触发，也可在 Antigravity、OpenCode、Codex、MiniMax Code 中使用。定位是给文档、博客、落地页做解释图，不是教学专用（示例含学校波纹槽实验装置）。MIT | https://github.com/wheresryan22/anatomy |
 
 ## 元清单
 
