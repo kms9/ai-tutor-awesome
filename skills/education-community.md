@@ -37,6 +37,7 @@
 | minicoursegenerator/skills-for-course-creators | 做课、角色扮演练习、培训分析；`edu-role-play` | https://github.com/minicoursegenerator/skills-for-course-creators |
 | kevintsai1202/teaching-site-skills | 11 个 Skill：从零做章节化互动教学站 | https://github.com/kevintsai1202/teaching-site-skills |
 | HughYau/AcademicForge `learn` | 学术理解模式：一步一问，发现 vs 直讲 | https://github.com/HughYau/AcademicForge |
+| andyhuo520/aetherviz-master | 做课：输入教学主题 → 单个 HTML 的 3D 交互教学页（Three.js + SVG + KaTeX），自动识别学科配色，带学习目标、原理讲解、小测验面板；Claude Code 里 `/aetherviz-master` 触发。MIT | https://github.com/andyhuo520/aetherviz-master |
 
 ## 元清单
 

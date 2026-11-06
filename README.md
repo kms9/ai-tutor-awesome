@@ -8,6 +8,8 @@
 
 本仓库只做一件事：把「能把资料变成可学过程」的产品放在一起，并给每个产品留调研与使用体验的位置。问答机器人、纯题库、纯录播课平台默认不收录。
 
+不够格进产品索引、但值得留档的内容分两类另收：政策 / 商业 / 产品案例 / 观点进 [cases/](cases/README.md)，学习方法、写作技巧、提示词进 [methods/](methods/README.md)。
+
 ## 怎么用这份清单
 
 1. 先看下面的索引，按场景选产品。
@@ -23,6 +25,8 @@ product/_TEMPLATE.md      单个产品页字段
 product/<slug>/README.md  简介、场景、Skill、能力对照、调研、体验
 skills/                   教育向 Agent Skills（Claude 官方与社区）
 capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对照
+cases/README.md           资讯与案例：政策、商业案例、产品案例、观点（含收录规则与条目模板）
+methods/README.md         学习方法、写作技巧、提示词、非教学向 Skill 合集（含收录规则与条目模板）
 ```
 
 每个产品目录后续可以继续放：截图、试用记录、对比笔记、Skill 摘录。不要把长文写进本 README。
@@ -47,6 +51,7 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | OpenTutor | 本地优先自适应学习工作区。上传资料后生成笔记、闪卡、测验和导师，支持 FSRS。 | 数据不能出本机；只要复习闭环，不要完整课堂 UI。 | [product/opentutor](product/opentutor/README.md) |
 | Course Navigator | 网课视频转可检索文本、大纲和摘要。 | 先消化已有视频课，再交给家教或课堂系统。 | [product/course-navigator](product/course-navigator/README.md) |
 | ClassroomIO | 开源 LMS，带 AI 大纲和课程交付。 | 机构要托管和分发，不需要 AI 同学实时演课。 | [product/classroomio](product/classroomio/README.md) |
+| Live Classroom | 打一个主题，LLM 规划 12 节拍，H3 Max Turbo 即时渲染成 1 分钟卡通讲解视频，可排队追问。 | 研究生成式视频课堂的工程做法；随口一个概念先看动画讲解。不适合讲义变视频、要练习或记忆。 | [product/live-classroom](product/live-classroom/README.md) |
 
 ### 商业学生端
 
@@ -65,6 +70,7 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | NotebookLM | 源材料问答、学习指南、音频对话。 | 只要基于我的 PDF 问得准，先不需要教学运行时。 | [product/notebooklm](product/notebooklm/README.md) |
 | Khanmigo | Khan Academy 苏格拉底家教。 | 对照「成熟教辅家教」的教学姿态，不作为自托管方案。 | [product/khanmigo](product/khanmigo/README.md) |
 | Brilliant | 专家写好的 STEM 交互画布 + 课内导师 Koji。拖切线、改天平、跟踪代码，不吃用户 PDF。 | 把抽象概念练成手感；每天短课；对照「看见画布、不代做」的导师。不适合自有课件成课。 | [product/brilliant](product/brilliant/README.md) |
+| WeduLab | 作者用 Claude 做的初高中 3D 交互实验合集，免费、免注册，部分带随堂检测。 | 课堂投屏讲三维 / 动态知识点；对照「AI 做课的成品」长什么样。不适合自有课件成课或要 AI 家教。 | [product/wedulab](product/wedulab/README.md) |
 
 ## 按场景选
 
@@ -78,6 +84,8 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 | 上传课件就刷卡和测验 | StudyFetch / YouLearn / Scholarly |
 | 给组织做培训课 | Coursebox / ClassroomIO |
 | 讲义变成讲解视频 | X-Pilot、Hyperknow 的视频能力 |
+| 一句话主题即时生成讲解视频 | Live Classroom |
+| 课堂投屏用的 3D 交互教具 | WeduLab（成品）/ AetherViz Master Skill（自己生成） |
 | 可安装的教法 Skill | DeepTutor EduHub、OpenMAIC 课内 Skill、Claude k12-teacher-skills |
 | 源材料变成主张图 | Heptabase App Skills |
 | 把抽象概念练成可操作手感 | Brilliant |
@@ -93,6 +101,23 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 - [社区与产品自带教育 Skill](skills/education-community.md)
 - [Skill 和能力对照](capabilities/skill-map.md)
 
+## 资讯、案例与方法
+
+不进产品索引的两类内容，各自一个文件，持续追加。
+
+| 分类 | 收什么 | 现有小节 | 文件 |
+|---|---|---|---|
+| 资讯与案例 | AI 教育政策、商业案例、产品使用案例、观点文章 | 政策动态 / 商业案例 / 产品案例 / 观点 | [cases/README.md](cases/README.md) |
+| 学习方法与提示词 | 学习方法、演讲与表达、用 AI 理解与写作、单条提示词、非教学向 Skill 合集 | 学习方法 / 演讲与表达 / 用 AI 理解与写作 / 提示词 / 相邻 Skill 合集 | [methods/README.md](methods/README.md) |
+
+收录规则和条目模板写在各自文件开头。共同要求：
+
+- 只写中性事实摘要；原文的主观评价、营销话术不搬。观点类写成「文章主张……」。
+- 商业 / 产品案例必须写「涉及产品」和「应用场景」，原文没点名就标「未核」。
+- 优先链原始出处；找不到时链得到笔记，并标「原始出处未核」。
+- 同一事件或技巧的多条笔记合并成一条；小节内按日期倒序。
+- 能做成产品或教学 Skill 的，进 `product/` 或 `skills/`，不在这里重复。
+
 ## 收录标准
 
 满足至少两条再进索引：
@@ -107,3 +132,4 @@ capabilities/             跨产品能力对照、Heptabase 拆解、Skill 对�
 - 每个产品页固定六段：简介、建议使用场景（含不适合）、Skill、能力对照、调研、使用体验。
 - 试用后把日期、账号类型、模型、结论写进该产品目录，不要只改心情化形容词。
 - 官方 Skill 与社区 Skill 分文件，未合并的 PR 不当作已发布。
+- `cases/`、`methods/` 新条目复制所在文件的「条目模板」，放进对应小节；没有合适小节时先在文件里加小节，再同步本 README「资讯、案例与方法」表。
