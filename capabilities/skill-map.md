@@ -12,10 +12,11 @@
 | DeepTutor | 仓根 `deeptutor-cli` + EduHub 注册表 | 1 条 CLI + EduHub 74 | 教 / 练 / 评 / 规划 | 是（DeepTutor / Claude Code / Codex） |
 | Heptabase | App 内 AI Skills + `heptabase-cli` | App 不限（无私有市场目录）；CLI 1 条 | 备 / 整理库 / 开课对象 | 是（Claude Code / Codex） |
 | Claude 官方 | `academy-guide` + `k12-teacher-skills` | 1 + 4 | 备 / 评（教师侧） | 是 |
-| 社区教学仓 | 见 [skills/education-community.md](../skills/education-community.md) | 8 个仓 | 教 / 练 / 做课 | 视仓而定 |
-| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / Brilliant / WeduLab / OpenTutor / Course Navigator / Live Classroom | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
+| 懂了鸭 | 官网 zip 下载的 Skill 包（`dly-html` / `dongleya-content-asset-skill` / `dly-content-source`） | 3 | 做课（做 HTML 互动作品 → 投稿） | 是（Skill 文中点名 Codex / Cursor / WorkBuddy，需个人令牌） |
+| 社区教学仓 | 见 [skills/education-community.md](../skills/education-community.md) | 10 个仓（含 edulab、相邻的 anatomy） | 教 / 练 / 做课 | 视仓而定 |
+| Hyperknow / StudyFetch / YouLearn / Scholarly / Coursebox / X-Pilot / NotebookLM / Khanmigo / Brilliant / WeduLab / OpenTutor / Course Navigator / Live Classroom / Learn Your Way / 欧拉讲题 / cn-math-taxonomy | 产品内流程或按钮 | 0 份公开 SKILL.md | — | 否 |
 
-ClassroomIO 有 MCP，不是教学 Skill。
+ClassroomIO 有 MCP，不是教学 Skill。WeduLab 产品内没有 Skill，作者另开源 edulab（计入社区教学仓）。cn-math-taxonomy 没有 Skill，但数据是 JSON，可被外部 Agent 直接读取。
 
 ## OpenMAIC 课内 Skill（agent-runtime，已点名）
 
@@ -107,7 +108,11 @@ ClassroomIO 有 MCP，不是教学 Skill。
 | OpenTutor | Block 工作区 + FSRS | 未见 SKILL.md |
 | Course Navigator | 视频→字幕/笔记 | 上游工具，无教 |
 | Live Classroom | 主题→12 节拍→即时渲染视频 + 节目单 | 无练习闭环；无 SKILL.md |
-| WeduLab | 固定 3D 实验 + 随堂检测 | 无 AI 运行时；按需生成要靠 AetherViz 类 Skill |
+| WeduLab | 固定 3D 实验 + 随堂检测 | 无 AI 运行时；按需生成要靠 AetherViz / edulab 类 Skill |
+| Learn Your Way | 年级 + 兴趣改写 → 沉浸式文本 / 测验 / 幻灯旁白 / 音频课 / 导图 | 研究实验；无 SKILL.md，不能换模型 |
+| 欧拉讲题 | 拍题 → 提示思路 → 边讲边画 → 追问 / 复述 / 批改 | 仅数学、单题；讲题姿态不可导出 |
+| cn-math-taxonomy | 先修图 + 规则诊断 + 学习路径 | 无讲解；数据可复用但无 SKILL.md |
+| 懂了鸭（站内创作） | 主题 → 作品类型 → Agent 生成 HTML → 社区发布 / 改编 | 站内创作 Agent 不可导出；外部只开放投稿与取回源码 Skill |
 
 ## 自研时怎么用这张表
 

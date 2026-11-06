@@ -1,6 +1,6 @@
 # 资讯与案例
 
-巡查：2026-11-05。收 AI 教育相关的政策动态、商业案例、产品使用案例和观点文章。它们不进产品索引，但能说明产品在什么场景被用、被管、被卖。
+巡查：2026-11-06。收 AI 教育相关的政策动态、商业案例、产品使用案例和观点文章。它们不进产品索引，但能说明产品在什么场景被用、被管、被卖。
 
 只写事实摘要：谁、何时、做了什么、涉及哪些产品、用在什么场景。原文里的评价、夸张说法和营销话术不搬过来；观点类只写「文章主张……」，不替它下结论。
 
@@ -44,6 +44,19 @@
 - 分学段：0–3 岁不建议直接接触 AI 工具；3–6 岁可在家长陪伴下有限体验；小学不建议学生独自使用；初中可在教师或家长陪伴下适度探索；高中可在教师许可下开展探究性学习。
 - 笔记称浙江、黑龙江等地也陆续出台相关政策，具体文件未核。
 
+### 纽约市公立学校 2026–27 学年暂停 2-K 至 8 年级学生使用生成式 AI
+
+- 类型：政策
+- 日期：2026-09-02（纽约市长办公室新闻稿日期）
+- 来源：[纽约市长办公室新闻稿](https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat) · [NYCPS 政策页](https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence)
+- 核查：已核原文
+
+- 2026–27 学年对 2-K 至 8 年级实行为期一年的学生端生成式 AI 暂停，范围是所有含面向学生的生成式 AI 的软件；陪伴类聊天机器人在所有年级禁止。新闻稿称影响近 60 万名学生，约占在校生的三分之二。
+- 9–12 年级：所有高中生修两节 45 分钟的 AI 素养课；另有 5 个中央批准的试点工具（Quill、Edia、Brisk Teaching、Playlab、Intel AI-Ready Schools），新闻稿写明最多覆盖 5 万名普通班高中生、每校最多 5 个班，在受训教师直接监督下使用。两份原文都列了各工具每周使用时长，口径略有不同。
+- 屏幕时间：2-K 至 2 年级不安排 1:1 屏幕时间；3–5 年级建议每天不超过 30 分钟，6–8 年级不超过 45 分钟。IEP / 504 规定的辅助技术、残障学生和英语学习者所需工具不受限制。
+- 教师可继续用 AI 备课和处理事务，工具须通过 NYCPS 的 ERMA 数据隐私与安全审核；政策页写明 AI 不得用于评分、行为监控，以及升级、毕业等关于学生的决定。
+- 成立 Technology in Schools Coalition，在本学年评估暂停和试点的影响；政策页写明 2027 年 4 月提交政策建议报告。
+
 ## 商业案例
 
 ### 县城少儿 AI 培训：私域学生群收费案例
@@ -60,6 +73,20 @@
 
 ## 产品案例
 
+### 腾讯内测 AI 互动内容社区「懂了鸭」
+
+- 类型：产品案例
+- 日期：2026-10-21（媒体首次报道日期；腾讯官方公告未找到）
+- 来源：[官网 dongleya.qq.com](https://dongleya.qq.com/) · [官方 Skill 包](https://dongleya.qq.com/d_file/skills/dly-ca-skill-2.2.1.zip) · [IT之家](https://www.ithome.com/1/016/145.htm) · [人人都是产品经理 6481407](https://www.woshipm.com/ai/6481407.html) · [多知](http://www.duozhi.com/industry/insight/2026102318912.shtml)
+- 核查：官网描述、邀请码入口和官方 Skill 包已核；立项时间、内测范围和产品内功能为转述（未核）
+- 涉及产品：懂了鸭（见 [product/dongleya](../product/dongleya/README.md)）；WorkBuddy（媒体实测中用作外部上传 Agent）
+- 应用场景：家长、教师用 AI 生成面向学前至高中的互动课件、3D 演示、绘本和动画，发布到社区供浏览和改编；课堂投屏、家庭答疑、课外探索
+
+- IT之家报道腾讯在小范围内测，官网和微信小程序已上线，面向亲子用户和一线教师；注册需邀请码（官网前端可见邀请码绑定步骤）。
+- 多知称产品出自腾讯 PCG，去年年底开始探索，2026 年 9 月立项（未核）。
+- 官网提供 2026-10-18 打包的官方 Skill 包 v2.2.1，外部 Agent 可用个人令牌把本地做好的 HTML 投稿为临时副本，由用户本人在网页发布；woshipm 实测用 WorkBuddy 上传（未核）。
+- 媒体称目前未商业化、没有付费入口（未核）。
+
 ### Hyperknow 用户体验分享
 
 - 类型：产品案例
@@ -73,6 +100,23 @@
 - 帖子提到白板分步讲解功能。
 - 帖子后半部分的使用评价笔记片段未包含（未核）。
 
+### 企鹅教师助手 × WorkBuddy：教师备课助手以 Buddy 应用接入 AI Agent 办公工具
+
+- 类型：产品案例
+- 日期：2026-09-02（Buddy 应用上线日期，据品玩）
+- 来源：[企鹅教师助手官网](https://aiteach.qq.com/) · [腾讯官网文章（2026-04-24）](https://www.tencent.com/zh-cn/%e8%ae%a9%e6%95%99%e5%b8%88%e4%b8%93%e6%b3%a8%e6%95%99%e5%ad%a6%ef%bc%8c%e8%ae%a9ai%e6%90%9e%e5%ae%9a%e5%85%b6%e4%bb%96/) · [WorkBuddy 官网](https://www.workbuddy.cn/) · [WorkBuddy 教师福利页](https://www.workbuddy.cn/events/teacher-benefit/) · [品玩](https://www.pingwest.com/w/317150) · [腾讯云开发者社区](https://cloud.tencent.com/developer/article/2743283) · [majiabin](https://www.majiabin.com/3465.html) · [Biaoo 个人实测](https://www.biaoo.me/articles/workbuddy-teaching-integration/) · [西北师范大学新闻](https://www.nwnu.edu.cn/2026/0608/c8722a278973/page.htm)
+- 核查：企鹅教师助手定位与功能模块、星星币规则、WorkBuddy 定位已核官方页面与前端代码；Buddy 应用上线日期、三种模式、专家与 Skill 数量为转述（未核）；接入限制为个人实测
+- 涉及产品：企鹅教师助手（腾讯 SSV 数字教育实验室）；WorkBuddy（腾讯云代码助手）
+- 应用场景：中小学教师备课、课件和互动演示制作、家校沟通、教研。它是教师工具，不是学生端家教，故记为案例、不进产品索引
+
+- **企鹅教师助手**：腾讯官网文章称由腾讯 SSV 数字教育实验室开发、基于混元大模型，截至 2026 年 4 月超过 2 万名教师试用；输入主题生成教学大纲和幻灯片草稿，创意教学和剧本教学设计覆盖小组讨论、角色扮演、推理探案、实验探究，另有行政文书支持和课例共享。网页版前端可见的模块：AI 做课件、AI 创意教学设计、AI 剧本教学、AI 文书助手、素材加工、动画演示、技能广场、教学案例广场、AI 素养测评。文中「备课时间减少 60% 以上、学生参与度提高 30% 以上」是腾讯自述的试点数据。与西北师范大学联合研发、2026 年 6 月上线国家智慧教育公共服务平台，出自西北师大新闻页（页面拒绝自动访问，原文未核）。
+- **WorkBuddy**：官网描述为「腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作」。腾讯云开发者社区文章称 2026-09-02 上线开放平台（转述，未核）；Biaoo 实测可接入自定义模型 API。
+- **怎么联动**：品玩称「企鹅教师助手 Buddy 应用」2026-09-02 在 WorkBuddy 内上线。用户在 WorkBuddy「发现应用」里打开，用微信授权登录后，整个工作台切换为教师版（专家、技能、连接器、首页、场景），可切回通用工作台（majiabin、腾讯云开发者社区文章）。企鹅教师助手网页前端有 WorkBuddy 授权页，并加载 CodeBuddy 开放平台 SDK（已核前端代码）。
+- **联动内容**：教学设计、家校共育、专业成长三种模式，下设 21 类场景；内置与北京大学共建的 33 位教育专家智能体和 15 项教学 Skill（品玩；官方原文未找到，未核）。
+- **权益互通**：企鹅教师助手网页版的星星币规则（官方页面原文）：签到、生成课件和教学设计、发布 Skill 和案例等任务可得星星币；在「中国教师」平台认证的用户完成功能任务所得为 1.5 倍；星星币兑换「教师专属补充包」得到兑换码，在 WorkBuddy 积分兑换中心换成 WorkBuddy 积分，用于「WorkBuddy 企鹅教师助手行业版」。品玩称兑换比例为 1:1（规则页未写比例，未核）；品玩还称经「中国教师」小程序认证的教师在 2026-09-30 前可在 WorkBuddy 领 1000 积分。WorkBuddy 教师福利页现写活动持续至 2027-03-31，入口改为公众号。
+- **接入限制（Biaoo 2026-09-06 个人实测，不是官方说法）**：企鹅教师助手的 MCP 连接器只提供 `get_user_memory`（读取教学记忆）一个工具，测试中返回空数组，网页端已记录的偏好没有传到 WorkBuddy；WorkBuddy 内的产物由 WorkBuddy 的通用工具生成，测试中没有调用企鹅教师助手网页端的生成管线。majiabin（2026-09-19）同样写到 Buddy 应用目前只提供教学记忆一项 MCP 能力。
+- 未核：腾讯关于 WorkBuddy 联动的官方新闻稿原文；收费档位。腾讯云开发者社区文章称家长也可使用。
+
 ### 敏行物理：物理教学可视化站点两周年
 
 - 类型：产品案例
@@ -84,6 +128,49 @@
 
 - 演示内容覆盖热学与近代物理等模块，例：布朗运动、分子间作用力、晶体微观结构、气体实验定律、原子结构发现历程。
 - 工具分四类，例：高中物理实验数据处理器（数据处理与报告导出）、带电粒子在变化电场中的运动（自行设计交变电场、观察轨迹）、读数教学。
+
+### Google 搜索上线五类学习功能
+
+- 类型：产品案例
+- 日期：2026-08-19
+- 来源：[Google 官方博客](https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/)
+- 核查：已核原文
+- 涉及产品：Google 搜索（AI Overviews、AI Mode）、Lens、Gemini Notebook（原 NotebookLM，见 [product/notebooklm](../product/notebooklm/README.md)）
+- 应用场景：学生在搜索里理解概念、做练习测验、拍照检查作业步骤、按课程整理资料、生成复习文档
+
+- 交互可视化：按问题生成交互工具和模拟（原文例：pH 值）；AI Mode 英文版已全球上线，AI Overviews 开始推出。
+- 练习测验：任意学科的定制测验，可针对 ACT、AP、ENEM、GRE、JEE、LSAT、MCAT、NEET、SAT 备考，题目内容与 The Princeton Review、Careers360、PhysicsWallah、Akira Enem 合作；英文版全球免费。
+- Lens 分步学习：拍下正在做的题，AI Overview 给出讲解、指出可能出错的步骤，可在 AI Mode 继续追问；原文称未来几周内英文版全球推出。
+- 笔记本进 AI Mode：按课程或项目建 notebook，加入课件、大纲、网页和 AI Mode 历史对话，与 Gemini Notebook 同步；180 多个国家英文版陆续推出，不含欧洲经济区。
+- 生成学习文件：根据上传文件或 AI Mode 对话生成文档、幻灯片、表格和文本文件（原文例：手写笔记 + 课件 → 一页要点）；AI Mode 英文版已全球上线。
+
+### Anthropic 发布 Claude for Teachers
+
+- 类型：产品案例
+- 日期：2026-07-14
+- 来源：[Anthropic 官方新闻](https://www.anthropic.com/news/claude-for-teachers)
+- 核查：已核原文
+- 涉及产品：Claude for Teachers；配套教学 Skill 已收在 [skills/official-claude.md](../skills/official-claude.md)，这里不重复
+- 应用场景：美国 K-12 教师备课、分层教学、分析去标识化的课堂材料
+
+- 面向经过验证的美国 K-12 教师，免费提供付费版 Claude 能力、一套教学 Skill，以及 Learning Commons 连接器（50 州课标及其下的学习组成和学习顺序）；接入 OpenSciEd、Illustrative Mathematics IM v.360 等课程资源。
+- 同期开放 9 个 K-12 工具连接器：ASSISTments、Brisk Teaching、Canva Education、Coteach、Diffit、Eedi、MagicSchool、Snorkl、TeachFX。包含 Claude Code 和 Cowork，可设定每天定时执行的任务（原文例：每天 16 点汇总去标识化的课堂小测并调整次日教案）。
+- 数据：已验证教师账号不用于模型训练；学生信息受 K-12 数据处理附录约束；与美国教师联合会（AFT）对齐隐私标准；仅限教师使用。
+- 同时发布开源教学 Skill 仓库和评测说明，并在底特律公立学区试点评估。2026-08-28 推出面向学校和学区的版本，原文同日把示例改为使用去标识化数据。
+
+### Marble 开源小学阶段知识图谱 os-taxonomy
+
+- 类型：产品案例
+- 日期：2026-07-08（GitHub 仓库创建日期）
+- 来源：[GitHub](https://github.com/withmarbleapp/os-taxonomy) · [在线浏览](https://withmarble.com/curriculum)
+- 核查：已核仓库 README
+- 涉及产品：Marble（withmarble.com）；仓库内 `marble-builder` Agent Skill；[cn-math-taxonomy](../product/cn-math-taxonomy/README.md) 的数据格式参考此仓库
+- 应用场景：给学习产品或 Agent 提供小学阶段的知识点、先修关系、课标对齐和教学研究数据
+
+- v1 含 1,861 个微知识点（9 个学科，数学 581、科学 576、英语 339 等）和 4,003 条先修边（标 hard / soft，每条带一句理由），对齐 NGSS、Common Core、英国国家课程、澳大利亚课程 v9、安大略等 17 个来源。
+- 附 1,049 条教学研究记录（教法、活动、测评）；README 写明由 Agent 撰写、来源未重新核验，活动不是经实证验证的干预。
+- 许可：数据库 ODbL 1.0，Marble 撰写的文本 CC BY-SA 4.0，课标原文各按上游许可；README 写明可用于商业产品，但对数据库本身的改进需按 ODbL 开放。
+- 仓库内的 `marble-builder` Skill 根据孩子年龄和确认过的学习目标，结合先修图与教学研究，生成离线可用的单文件 HTML 学习体验；本条只记数据集发布，该 Skill 未单独收入 skills/。
 
 ## 观点
 

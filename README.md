@@ -52,6 +52,7 @@ methods/README.md         学习方法、写作技巧、提示词、非教学向
 | Course Navigator | 网课视频转可检索文本、大纲和摘要。 | 先消化已有视频课，再交给家教或课堂系统。 | [product/course-navigator](product/course-navigator/README.md) |
 | ClassroomIO | 开源 LMS，带 AI 大纲和课程交付。 | 机构要托管和分发，不需要 AI 同学实时演课。 | [product/classroomio](product/classroomio/README.md) |
 | Live Classroom | 打一个主题，LLM 规划 12 节拍，H3 Max Turbo 即时渲染成 1 分钟卡通讲解视频，可排队追问。 | 研究生成式视频课堂的工程做法；随口一个概念先看动画讲解。不适合讲义变视频、要练习或记忆。 | [product/live-classroom](product/live-classroom/README.md) |
+| cn-math-taxonomy | 中小学到高中的知识点先修图 + 题库 + 静态诊断页。答错沿先修边往回追到更早学段的薄弱点，给学习路径。CC BY-NC 4.0。 | 卡在某个知识点时找前面没打牢的先修；给诊断或 Agent 做中文知识底座。不适合讲解、成课；内容由 AI 生成、未经教师审核。 | [product/cn-math-taxonomy](product/cn-math-taxonomy/README.md) |
 
 ### 商业学生端
 
@@ -60,6 +61,7 @@ methods/README.md         学习方法、写作技巧、提示词、非教学向
 | StudyFetch | 课件生成闪卡/测验，家教 Spark.E 基于你的材料回答。 | 大学生日常复习，要低门槛 Quizlet 替代。 | [product/studyfetch](product/studyfetch/README.md) |
 | YouLearn | YC 项目。PDF / YouTube / 幻灯片变成笔记、对话家教、测验和播客。 | 课业材料杂、想边听边问、接受 SaaS。 | [product/youlearn](product/youlearn/README.md) |
 | Scholarly | 家教 + 间隔重复 + 模考 + 音视频概览 + 思维导图。 | 想把多种复习形态收在一个订阅里。 | [product/scholarly](product/scholarly/README.md) |
+| 欧拉讲题 | 网易有道数学讲题 App。拍题后先提示思路、再在白板上边讲边画，可追问、可整卷批改。单题粒度，仅数学。 | 中小学生卡在一道数学题、要看推导和图形；家长辅导作业。不适合其他学科或资料成课。 | [product/oula-jiangti](product/oula-jiangti/README.md) |
 
 ### 成课与相邻工具
 
@@ -71,6 +73,8 @@ methods/README.md         学习方法、写作技巧、提示词、非教学向
 | Khanmigo | Khan Academy 苏格拉底家教。 | 对照「成熟教辅家教」的教学姿态，不作为自托管方案。 | [product/khanmigo](product/khanmigo/README.md) |
 | Brilliant | 专家写好的 STEM 交互画布 + 课内导师 Koji。拖切线、改天平、跟踪代码，不吃用户 PDF。 | 把抽象概念练成手感；每天短课；对照「看见画布、不代做」的导师。不适合自有课件成课。 | [product/brilliant](product/brilliant/README.md) |
 | WeduLab | 作者用 Claude 做的初高中 3D 交互实验合集，免费、免注册，部分带随堂检测。 | 课堂投屏讲三维 / 动态知识点；对照「AI 做课的成品」长什么样。不适合自有课件成课或要 AI 家教。 | [product/wedulab](product/wedulab/README.md) |
+| 懂了鸭 | 腾讯内测的青少儿 AI 互动内容社区。一句话生成动态课件、3D 演示、绘本、动画，发布到社区可改编；有官方 Skill 供外部 Agent 投稿。边界产品。 | 家长、教师自己生成互动教具并分享；和 WeduLab 对照。不适合资料成课或 AI 家教；需邀请码。 | [product/dongleya](product/dongleya/README.md) |
+| Learn Your Way | Google Labs 研究实验。教材 PDF 按年级和兴趣改写，再生成沉浸式文本、分节测验、幻灯片旁白、音频课和思维导图。 | 对照「同一教材 → 多种表征 + 个性化例子」的成课做法。不适合中文教材；自有 PDF 上传是否开放未核。 | [product/learn-your-way](product/learn-your-way/README.md) |
 
 ## 按场景选
 
@@ -85,8 +89,12 @@ methods/README.md         学习方法、写作技巧、提示词、非教学向
 | 给组织做培训课 | Coursebox / ClassroomIO |
 | 讲义变成讲解视频 | X-Pilot、Hyperknow 的视频能力 |
 | 一句话主题即时生成讲解视频 | Live Classroom |
-| 课堂投屏用的 3D 交互教具 | WeduLab（成品）/ AetherViz Master Skill（自己生成） |
+| 课堂投屏用的 3D 交互教具 | WeduLab（成品）/ AetherViz Master、edulab Skill（自己生成）/ 懂了鸭（在线生成 + 社区） |
+| 一道数学题看分步板书讲解、随时追问 | 欧拉讲题 |
+| 答错题后找前面学段的薄弱点 | cn-math-taxonomy |
+| 教材按年级和兴趣改写成多形态课 | Learn Your Way |
 | 可安装的教法 Skill | DeepTutor EduHub、OpenMAIC 课内 Skill、Claude k12-teacher-skills |
+| 一道题做成交互网页或讲解视频 | edulab Skill（数理化） |
 | 源材料变成主张图 | Heptabase App Skills |
 | 把抽象概念练成可操作手感 | Brilliant |
 | 对照「不代做」的课内导师 | Khanmigo / Brilliant Koji |
